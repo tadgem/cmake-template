@@ -9,7 +9,7 @@ set(library_name_SRC
 )
 
 set(library_name_INCLUDES
-        ${CMAKE_CURRENT_SOURCE_DIR}
+        ${CMAKE_CURRENT_SOURCE_DIR}/include
 CACHE INTERNAL "")
 
 add_library(library_name STATIC ${library_name_SRC})
