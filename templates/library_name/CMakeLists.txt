@@ -15,4 +15,4 @@ CACHE INTERNAL "")
 add_library(library_name STATIC ${library_name_SRC})
 
 target_include_directories(library_name PUBLIC ${library_name_INCLUDES})
-target_link_libraries(library_name STATIC a)
+target_link_libraries(library_name PRIVATE a)
