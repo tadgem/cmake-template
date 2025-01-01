@@ -1,4 +1,4 @@
-add_executable(library_name_TESTS test_name.cpp)
+add_executable(library_name_tests test_name.cpp)
 
-target_link_libraries(library_name_TESTS PRIVATE library_name)
-target_include_directories(library_name_TESTS PUBLIC ${library_name_INCLUDES})
+target_link_libraries(library_name_tests PRIVATE library_name)
+target_include_directories(library_name_tests PUBLIC ${library_name_INCLUDES})
